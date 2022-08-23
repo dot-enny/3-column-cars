@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cars {
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.sedans {
+    padding: 60px;
+    height: 510px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+    padding: 60px;
+    height: 510px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    padding: 60px;
+    height: 510px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius:  0 10px 10px 0;
+}
+
+header {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 95%);
+    margin: 30px 0 30px 0;
+}
+
+p {
+    line-height: 25px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 80px;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    width: 150px;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+    transition-duration: 0.09s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: inherit;
+    border: solid hsl(0, 0%, 95%) 2px;
+}
+
+.sedan-button {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedan-button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+.suv-button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury-button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width:375px) {
+
+.cars {
+    display: block;
+    padding: 15px;
+}
+
+.sedans {
+    border-radius: 10px 10px 0 0;
+    height: fit-content;
+}
+
+.suvs {
+    height: fit-content;
+}
+
+.luxury {
+    height: fit-content;
+    border-radius: 0 0 10px 10px;
+}
+
+}
