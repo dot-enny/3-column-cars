@@ -94,6 +94,15 @@ button:hover {
     display: none;
 }
 
+@media screen and (max-width: 1291px) {
+    header {
+        font-size: 39px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width:500px) {
 
 .desktop {
