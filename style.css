@@ -93,7 +93,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1010px) {
     .desktop {
         display: none;
     }
@@ -114,6 +114,6 @@ button:hover {
     }
     .car {
         margin: 0 auto;
-        width: clamp(320px, 100%, 500px);
+        width: clamp(320px, 100%, 450px);
     }
 }
